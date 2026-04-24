@@ -33,5 +33,5 @@ exports.deleteTask = async (req, res) => {
     where: { id: req.params.id, userId: req.user.userId },
   });
 
-  res.json({ msg: "Deleted" });
+  res.json({ msg: "Deleted Successfully" });
 };
